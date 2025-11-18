@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../../assets/font/Roboto/Roboto-VariableFont_wdth\wght.ttf);
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(../../assets/font/Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+:root {
+  --primary-font-family: "Rubik";
+  --secondary-font-family: "Roboto";
+  --primary-text-color: #161c2d;
+  --primary-backgroundcolor: #ffffff;
+  --secondary-bacgroundcolor: #f4f7fa;
+  --third-backgroundcolor:#161C2D;
+}
