@@ -1,0 +1,337 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 21px;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: center;
+    margin-left: 48px;
+}
+
+.nav-left h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -0.16px;
+    color: var(--namecolor-primary);
+}
+
+
+
+.nav-center nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-center nav ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: var(--namecolor-primary);
+    transition: color 0.3s;
+}
+
+
+.nav-center nav ul li a:hover {
+    color: #fb6d45;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 44px;
+}
+
+.navbar {
+    display: flex;
+    gap: 45px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    text-align: right;
+    color: var(--namecolor-primary);
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #FB6D45;
+}
+
+.support-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.support-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 44px;
+    margin-top: 109px;
+    padding-bottom: 39px;
+    width: 40%;
+}
+
+.support-header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    text-align: center;
+    color: var(--namecolor-primary);
+}
+
+.support-header p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    opacity: 0.7;
+    color: var(--namecolor-primary);
+}
+
+.support-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 141px;
+    margin-top: 39px;
+    gap: 43px;
+    width: 50%;
+}
+
+.support-content h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: var(--namecolor-primary);
+    margin-bottom: 20px;
+}
+
+.support-content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    color: var(--namecolor-primary);
+    opacity: 0.7;
+}
+
+.security-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+    align-self: flex-start;
+}
+
+
+.security-list li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 50px;
+    letter-spacing: -0.2px;
+    color: var(--namecolor-primary);
+    opacity: 0.7;
+}
+
+.security {
+    width: 100%;
+}
+
+.security-list li::marker {
+    font-size: 30px;
+    color: #19191B;
+}
+
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 69px;
+    background-color: #161C2D;
+    padding: 122px 245px 0 245px;
+}
+
+.footer__brand {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin-right: 101px;
+    margin-bottom: 165px;
+}
+
+.footer__brand h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.16px;
+    color: #FFFFFF;
+    padding-bottom: 36px;
+    padding-right: 95px;
+}
+
+.footer__brand p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+    opacity: 0.65;
+    transform: rotate(0deg);
+    padding-bottom: 44px;
+}
+
+.footer__socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+}
+
+
+
+.footer__company h3 {
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+    opacity: 0.65;
+}
+
+.footer__company ul {
+    list-style: none;
+}
+
+.footer__company ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+
+.footer__product h3 {
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+    opacity: 0.65;
+}
+
+.footer__product ul {
+    list-style: none;
+}
+
+.footer__product ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+.footer__services h3 {
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+    opacity: 0.65;
+}
+
+.footer__services ul {
+    list-style: none;
+}
+
+.footer__services ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-list h3 {
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+    opacity: 0.65;
+}
+
+.footer__list ul {
+    list-style: none;
+}
+
+.footer-list ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
